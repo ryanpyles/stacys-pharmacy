@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacy's Pharmacy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Stacy's Pharmacy</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#refill">Prescription Refill</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#faq">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Stacy's Pharmacy</h2>
+        <p>Your trusted compounding pharmacy, providing personalized healthcare solutions.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our history, mission, and the dedicated team behind Stacy's Pharmacy.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Compounding</li>
+            <li>Prescription Refills</li>
+            <li>Consultations</li>
+        </ul>
+    </section>
+
+    <section id="refill">
+        <h2>Prescription Refill</h2>
+        <form action="/submit_refill" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <label for="medication">Medication:</label>
+            <input type="text" id="medication" name="medication" required>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@stacyspharmacy.com</p>
+        <p>Phone: (555) 555-5555</p>
+        <p>Address: 123 Main Street, Anytown, USA</p>
+    </section>
+
+    <section id="blog">
+        <h2>Health Tips and News</h2>
+        <p>Read our latest blog posts for health tips and pharmacy news.</p>
+    </section>
+
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <p>Find answers to common questions about our services and policies.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Stacy's Pharmacy</p>
+    </footer>
+</body>
+</html>
